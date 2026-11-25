@@ -267,13 +267,13 @@ At 3.5 GHz the normalised impedance is z = 1.0529 + j0.0130 (|Γ| = 0.0265), i.e
 
 | Check | Calculation | Result |
 |---|---|---|
-| S11 from reflection coefficient | 20·log₁₀(0.0265) | ≈ −31.5 dB ✔ |
-| VSWR from reflection coefficient | (1 + 0.0265) / (1 − 0.0265) | ≈ 1.054 ✔ |
-| Impedance from Smith chart | 50 Ω × (1.0529 + j0.0130) | 52.65 + j0.65 Ω ✔ (matches \|Z11\| = 52.65 Ω) |
-| Directivity, linear to dB | 10·log₁₀(5.17) | ≈ 7.13 dBi ✔ |
-| Bandwidth | 3.5415 − 3.4519 = 0.0896 GHz; 0.0896 / 3.5 | 89.6 MHz, 2.56 % ✔ |
-| Patch size vs analytical model | 34.06 / 28.1 mm vs 34.04 / 28.24 mm | agree within 0.5 % ✔ |
-| 50 Ω feed width | w/h ≈ 3.13 → 4.95 mm | matches 4.951 mm ✔ |
+| S11 from reflection coefficient | 20·log₁₀(0.0265) | ≈ −31.5 dB  |
+| VSWR from reflection coefficient | (1 + 0.0265) / (1 − 0.0265) | ≈ 1.054  |
+| Impedance from Smith chart | 50 Ω × (1.0529 + j0.0130) | 52.65 + j0.65 Ω (matches \|Z11\| = 52.65 Ω) |
+| Directivity, linear to dB | 10·log₁₀(5.17) | ≈ 7.13 dBi  |
+| Bandwidth | 3.5415 − 3.4519 = 0.0896 GHz; 0.0896 / 3.5 | 89.6 MHz, 2.56 %  |
+| Patch size vs analytical model | 34.06 / 28.1 mm vs 34.04 / 28.24 mm | agree within 0.5 %  |
+| 50 Ω feed width | w/h ≈ 3.13 → 4.95 mm | matches 4.951 mm  |
 
 ---
 
